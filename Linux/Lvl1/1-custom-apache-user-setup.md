@@ -8,3 +8,17 @@ Your task is to create a custom Apache user according to the outlined specificat
 - b. Assign a unique UID 1925 and designate the home directory as /var/www/rose.
 
 ## Solution:
+
+1. SSH into the server using the logs provided in the documentation  
+2. Check the Linux distribution  
+```bash
+cat /etc/os-release
+```
+3. Create custom user  
+```bash
+sudo useradd -u 1124 -m -d /var/www/yousuf yousuf
+```
+4. Set password for new user
+```bash
+sudo passwd yousuf
+```
