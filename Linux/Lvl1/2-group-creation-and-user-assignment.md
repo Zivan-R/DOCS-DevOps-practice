@@ -22,7 +22,7 @@ sudo groupadd nautilus_noc
 ```bash
 id mohammed
 ```
-5. If not, create it and assign the nautilus_noc group
+5. If not, create it and assign to the nautilus_noc group
 ```bash
 sudo useradd -m -G nautilus_noc mohammed
 ```
