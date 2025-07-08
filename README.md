@@ -1,6 +1,6 @@
 # [ENG]
 # Welcome to my personal DevOps practice documentation collection
-Here you will find various documentations about my personal hands-on practice on various DevOps, Cloud and Sys admin tasks.
+Here you will find various documentations about my personal hands-on practice on various DevOps, Cloud and Sys admin tasks. 
 
 ## Why ?
 The main reason is, I find it tedious to search the whole Internet every time I need to do something but I forgot how to.  
