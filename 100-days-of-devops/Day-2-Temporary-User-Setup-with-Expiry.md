@@ -2,4 +2,8 @@
 
 ## Task
 
+<details>
+  <summary>Click here for solution</summary>
+  
 ## Solution
+</details>
