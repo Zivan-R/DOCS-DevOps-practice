@@ -1,9 +1,28 @@
 # Day 2: Temporary User Setup with Expiry
 
+---
 ## Task
+As part of the temporary assignment to the Nautilus project, a developer named rose requires access for a limited duration. To ensure smooth access management, a temporary user account with an expiry date is needed. Here's what you need to do:  
+  
+Create a user named rose on App Server 3 in Stratos Datacenter. Set the expiry date to 2024-04-15, ensuring the user is created in lowercase as per standard protocol. 
 
 <details>
   <summary>Click here for solution</summary>
   
 ## Solution
+1. SSH into server 3
+2. Create user rose with expiry date April 15 2024
+```bash
+sudo useradd -e 2024-04-15 rose
+```
+3. Set password for user rose
+```bash
+sudo passwd rose
+```
+4. Verify user and expiry date
+```bash
+sudo chage -l rose
+# Expected line: Account expires : Apr 15, 2024
+```
 </details>
+
