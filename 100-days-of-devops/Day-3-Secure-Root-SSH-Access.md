@@ -10,7 +10,6 @@ Your task is to disable direct SSH root login on all app servers within the Stra
   
 ## Solution
 For each app server:  
-  
 1. SSH into the server
 2. Back Up the original configuration
 ```bash
