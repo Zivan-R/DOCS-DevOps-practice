@@ -33,6 +33,7 @@ awk '{print $1}' access.log | sort | uniq -c
 ```bash
 awk '{print $1}' access.log | sort | uniq -c | sort -nr | head -n 1
 # Example Output: 482 124.147.52.111
+
 # You can pipe a second awk to directly create the file in one command
 awk '{print $1}' access.log | sort | uniq -c | sort -nr | head -n 1 | awk '{ print $2 }' > /home/admin/highestip.txt
 ```
