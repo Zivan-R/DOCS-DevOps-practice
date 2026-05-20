@@ -37,5 +37,5 @@ awk '{print $1}' access.log | sort | uniq -c | sort -nr | head -n 1
 # You can pipe a second awk to directly create the file in one command
 awk '{print $1}' access.log | sort | uniq -c | sort -nr | head -n 1 | awk '{ print $2 }' > /home/admin/highestip.txt
 ```
-- sort -nr: n will sort by numerical values and by default it will be ascending. That's why we use the reverse -r flag, so the highest count is first
+- sort -nr: n will sort by numerical values and by default it will be ascending. That's why we use the reverse -r flag.
 </details>
