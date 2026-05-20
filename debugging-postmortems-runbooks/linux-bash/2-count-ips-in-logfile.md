@@ -3,6 +3,7 @@
 ## Description
 There's a web server access log file at /home/admin/access.log. The file consists of one line per HTTP request, with the requester's IP address at the beginning of each line (first column).  
 Find what's the IP address that has the most requests in this file (there's no tie; the IP is unique). Write the solution into a file /home/admin/highestip.txt.  
+  
 <b>OS</b> Debian 13
 
 <details>
@@ -23,6 +24,7 @@ cat access.log | cut -d ' ' -f1
 awk '{ print $1 }' | sort
 ```
 This step is important, if they are not grouped, uniq won't be able to correctly count
+
 3. Now, count with 'uniq -c'
 ```bash
 awk '{print $1}' access.log | sort | uniq -c
