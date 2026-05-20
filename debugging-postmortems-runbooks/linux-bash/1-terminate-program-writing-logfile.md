@@ -7,9 +7,9 @@ This program is no longer needed. Find it and terminate it. Do not delete the lo
 <b>OS</b>: Debian 11
   
 <details>
-  <summary>Click here for solution</summary>
+  <summary>Click here for instructions</summary>
   
-## Solution:
+## HOW-TO:
 
 1. List all processes to see if you can find something related  
 ```bash
